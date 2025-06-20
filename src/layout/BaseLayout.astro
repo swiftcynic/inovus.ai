@@ -24,15 +24,15 @@ const defaultSchema: WithContext<Thing> = {
   inLanguage: "en-US",
   "@id": Astro.url.href,
   url: Astro.url.href,
-  name: "Inovus.AI",
+  name: "Inovus.ai",
   description:
-    "Unlock powerful data insights with Inovus.AI's advanced analytics suite for Excel. Visualize, analyze, and make data-driven decisions in minutes with seamless Excel integration, AI-powered analysis, and predictive forecasting models.",
+    "Unlock powerful data insights with Inovus.ai's advanced analytics suite for Excel. Visualize, analyze, and make data-driven decisions in minutes with seamless Excel integration, AI-powered analysis, and predictive forecasting models.",
   isPartOf: {
     "@type": "WebSite",
     url: `${Astro.site}`,
-    name: "Inovus.AI",
+    name: "Inovus.ai",
     description:
-      "Inovus.AI Analytics Inc. provides advanced analytics for Excel to help businesses unlock actionable insights quickly with no coding required.",
+      "Inovus.ai Analytics Inc. provides advanced analytics for Excel to help businesses unlock actionable insights quickly with no coding required.",
   },
 };
 ---
@@ -42,27 +42,27 @@ const defaultSchema: WithContext<Thing> = {
     {/* SEO Meta Tags */}
     <SEO
       charset="utf-8"
-      title={seo?.title ?? "Inovus.AI"}
+      title={seo?.title ?? "Inovus.ai"}
       description={seo?.description ??
-        "Unlock powerful data insights with Inovus.AI's advanced analytics suite for Excel. Visualize, analyze, and make data-driven decisions in minutes with seamless Excel integration, AI-powered analysis, and predictive forecasting models."}
+        "Unlock powerful data insights with Inovus.ai's advanced analytics suite for Excel. Visualize, analyze, and make data-driven decisions in minutes with seamless Excel integration, AI-powered analysis, and predictive forecasting models."}
       openGraph={{
         basic: {
-          title: "Inovus.AI - Unlock Insights from Your Excel Data",
+          title: "Inovus.ai - Unlock Insights from Your Excel Data",
           type: "website",
           image: socialImage,
         },
         optional: {
           description:
-            "Transform your Excel workspace with Inovus.AI's powerful analytics suite. Get insights, predictive models, and visualizations in minutes with no coding required.",
+            "Transform your Excel workspace with Inovus.ai's powerful analytics suite. Get insights, predictive models, and visualizations in minutes with no coding required.",
         },
       }}
       twitter={{
         card: "summary_large_image",
-        title: "Inovus.AI - Unlock Insights from Your Excel Data",
+        title: "Inovus.ai - Unlock Insights from Your Excel Data",
         description:
-          "Transform your Excel workspace with Inovus.AI's powerful analytics suite. Visualize and analyze data quickly with no coding required.",
+          "Transform your Excel workspace with Inovus.ai's powerful analytics suite. Visualize and analyze data quickly with no coding required.",
         image: socialImage,
-        imageAlt: "Inovus.AI Logo.",
+        imageAlt: "Inovus.ai Logo.",
       }}
       extend={{
         link: [

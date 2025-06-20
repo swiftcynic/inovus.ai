@@ -1,18 +1,18 @@
 # Versatile Astro Template for Multi-Page Websites
 
-![Inovus.AI](https://github.com/user-attachments/assets/b2ca99ee-8161-4755-9b66-205993ef2910)
+![Inovus.ai](https://github.com/user-attachments/assets/b2ca99ee-8161-4755-9b66-205993ef2910)
 
-Inovus.AI is an open-source, multi-page website template designed for flexibility — perfect for marketing sites, documentation hubs, and dynamic applications. Built with [Astro](https://astro.build/), [Tailwind CSS](https://tailwindcss.com/), and [Preline UI](https://preline.co/), it seamlessly integrates with [Keystatic CMS](https://keystatic.com/) and [Astro DB](https://docs.astro.build/en/guides/astro-db/) for effortless content management and data handling.
+Inovus.ai is an open-source, multi-page website template designed for flexibility — perfect for marketing sites, documentation hubs, and dynamic applications. Built with [Astro](https://astro.build/), [Tailwind CSS](https://tailwindcss.com/), and [Preline UI](https://preline.co/), it seamlessly integrates with [Keystatic CMS](https://keystatic.com/) and [Astro DB](https://docs.astro.build/en/guides/astro-db/) for effortless content management and data handling.
 
 
 <p align="left">
     <a href="https://data-nova.vercel.app/" target="_blank">
-      <img src="https://vyclk3sx0z.ufs.sh/f/hv6ttNERWpXuFpMc8iWiVYanQyjefSkKg7v2Mrbz806uxod1" alt="Inovus.AI Demo" width="180"/></a>
+      <img src="https://vyclk3sx0z.ufs.sh/f/hv6ttNERWpXuFpMc8iWiVYanQyjefSkKg7v2Mrbz806uxod1" alt="Inovus.ai Demo" width="180"/></a>
 </p>
 
 ## Table of Contents
 
-* [Why Choose Inovus.AI?](#why-choose-inovusai)
+* [Why Choose Inovus.ai?](#why-choose-inovusai)
   * [Features](#features)
 * [What's New](#whats-new)
 * [Getting Started](#getting-started)
@@ -48,7 +48,7 @@ Inovus.AI is an open-source, multi-page website template designed for flexibilit
 * [Contributing](#contributing)
 * [License](#license)
 
-## Why Choose Inovus.AI?
+## Why Choose Inovus.ai?
 
 * **Versatile:** Build a variety of websites, from blogs and landing pages to complex applications.
 * **Easy content management:** Keystatic CMS makes it simple to manage and update your content.
@@ -71,7 +71,7 @@ Inovus.AI is an open-source, multi-page website template designed for flexibilit
 ## What's New
 
 > [!NOTE]
-> Currently, there are no planned improvements or known bugs. If you encounter any issues, please report them on our [issues page](https://github.com/mearashadowfax/Inovus.AI/issues) or [start a discussion](https://github.com/mearashadowfax/Inovus.AI/discussions/new/choose) to share ideas, suggestions, or ask questions.
+> Currently, there are no planned improvements or known bugs. If you encounter any issues, please report them on our [issues page](https://github.com/mearashadowfax/Inovus.ai/issues) or [start a discussion](https://github.com/mearashadowfax/Inovus.ai/discussions/new/choose) to share ideas, suggestions, or ask questions.
 
 ## Getting Started
 
@@ -113,7 +113,7 @@ With dependencies installed, you can utilize the following npm scripts to manage
 
 ## Deployment
 
-Inovus.AI is configured for [Server-Side Rendering (SSR)](https://docs.astro.build/en/guides/on-demand-rendering/) and comes with the Vercel adapter pre-installed. You can deploy it by connecting your GitHub repository to Vercel.
+Inovus.ai is configured for [Server-Side Rendering (SSR)](https://docs.astro.build/en/guides/on-demand-rendering/) and comes with the Vercel adapter pre-installed. You can deploy it by connecting your GitHub repository to Vercel.
 
 Click the button below to start deploying your project on Vercel:
 
@@ -146,7 +146,7 @@ Click the button below to start deploying your project on Vercel:
 
 ## Project Structure
 
-Inovus.AI organizes modular sections, components, content, and layout to streamline development and content management.
+Inovus.ai organizes modular sections, components, content, and layout to streamline development and content management.
 
 ```md
 ├── db/                                  # Contains the database schema and migrations
@@ -186,7 +186,7 @@ Inovus.AI organizes modular sections, components, content, and layout to streaml
 
 ## Customization
 
-This section provides guidance on customizing various aspects of the Inovus.AI template, including the navigation bar, mega menu, footer, and sections.
+This section provides guidance on customizing various aspects of the Inovus.ai template, including the navigation bar, mega menu, footer, and sections.
 
 ### Navigation
 
@@ -228,7 +228,7 @@ The `currentPath` variable is used to highlight the active link in the navigatio
 
 #### Mega Menu Links
 
-The mega menu allows you to create dropdown menus with multiple sections and links. This data, including icons, links, titles, and descriptions, is stored in the `utils/megaMenu/*` files. For example, the downloads mega menu is stored in [utils/megaMenu/downloads.ts](https://github.com/mearashadowfax/Inovus.AI/blob/771087f60258ced93f7ad8ab38669c5ada1a65c6/src/utils/megaMenu/downloads.ts):
+The mega menu allows you to create dropdown menus with multiple sections and links. This data, including icons, links, titles, and descriptions, is stored in the `utils/megaMenu/*` files. For example, the downloads mega menu is stored in [utils/megaMenu/downloads.ts](https://github.com/mearashadowfax/Inovus.ai/blob/771087f60258ced93f7ad8ab38669c5ada1a65c6/src/utils/megaMenu/downloads.ts):
 
 ```ts
    export const downloadsMenu = [
@@ -237,7 +237,7 @@ The mega menu allows you to create dropdown menus with multiple sections and lin
        items: [
          {
            icon: "download",
-           title: "Inovus.AI Core",
+           title: "Inovus.ai Core",
            description: "Download the free trial version.",
            href: "/downloads/inovusai-core",
          },
@@ -290,9 +290,9 @@ To use the mega menu in the navigation bar, import and add the `MegaMenu` compon
 > [!TIP]
 >Key locations to customize:
 >
-> * [@utils/navigation.ts](https://github.com/mearashadowfax/Inovus.AI/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/utils/navigation.ts): Navigation bar links
-> * [@utils/megaMenu/*](https://github.com/mearashadowfax/Inovus.AI/tree/c611b145c821aaac2df787df8848ebf5002a8ddd/src/utils/megaMenu): Mega menu configurations
-> * [Navbar.astro](https://github.com/mearashadowfax/Inovus.AI/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/components/sections/Navbar.astro): Navigation component
+> * [@utils/navigation.ts](https://github.com/mearashadowfax/Inovus.ai/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/utils/navigation.ts): Navigation bar links
+> * [@utils/megaMenu/*](https://github.com/mearashadowfax/Inovus.ai/tree/c611b145c821aaac2df787df8848ebf5002a8ddd/src/utils/megaMenu): Mega menu configurations
+> * [Navbar.astro](https://github.com/mearashadowfax/Inovus.ai/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/components/sections/Navbar.astro): Navigation component
 
 #### Footer Links
 
@@ -357,15 +357,15 @@ import Footer from "@sections/Footer.astro"; // Replace with FooterExpanded.astr
 > [!TIP]
 >Key locations to customize:
 >
-> * [Footer.astro](https://github.com/mearashadowfax/Inovus.AI/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/components/sections/Footer.astro): Main basic footer component
-> * [FooterExpanded.astro](https://github.com/mearashadowfax/Inovus.AI/blob/4ae0e6f486730066c9a38b2157363589bff479aa/src/components/sections/FooterExpanded.astro): Expanded footer component
-> * [@ui/forms/FooterForm.astro](https://github.com/mearashadowfax/Inovus.AI/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/components/ui/forms/FooterForm.astro): Basic email subscription form
-> * [@ui/forms/FooterFormExpanded.astro](https://github.com/mearashadowfax/Inovus.AI/blob/4ae0e6f486730066c9a38b2157363589bff479aa/src/components/ui/forms/FooterFormExpanded.astro): Expanded email subscription form
-> * [@common/ContactInfo.astro](https://github.com/mearashadowfax/Inovus.AI/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/components/common/ContactInfo.astro): Contact information display
+> * [Footer.astro](https://github.com/mearashadowfax/Inovus.ai/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/components/sections/Footer.astro): Main basic footer component
+> * [FooterExpanded.astro](https://github.com/mearashadowfax/Inovus.ai/blob/4ae0e6f486730066c9a38b2157363589bff479aa/src/components/sections/FooterExpanded.astro): Expanded footer component
+> * [@ui/forms/FooterForm.astro](https://github.com/mearashadowfax/Inovus.ai/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/components/ui/forms/FooterForm.astro): Basic email subscription form
+> * [@ui/forms/FooterFormExpanded.astro](https://github.com/mearashadowfax/Inovus.ai/blob/4ae0e6f486730066c9a38b2157363589bff479aa/src/components/ui/forms/FooterFormExpanded.astro): Expanded email subscription form
+> * [@common/ContactInfo.astro](https://github.com/mearashadowfax/Inovus.ai/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/components/common/ContactInfo.astro): Contact information display
 
 ### Content Sections and Common Components
 
-Inovus.AI's content sections and common components follow a similar structure, making customization easy. To customize content, update variables within component files:
+Inovus.ai's content sections and common components follow a similar structure, making customization easy. To customize content, update variables within component files:
 
 * Modify `title`, `subTitle`
 * Update Call-to-Action (CTA) configurations
@@ -408,7 +408,7 @@ const title = "My New Title";
 
 ### Keystatic CMS
 
-Inovus.AI uses Keystatic CMS for content management. You can edit content through the Keystatic web interface and store it in either your local file system or a GitHub repository
+Inovus.ai uses Keystatic CMS for content management. You can edit content through the Keystatic web interface and store it in either your local file system or a GitHub repository
 
 #### Accessing Keystatic Admin UI
 
@@ -501,7 +501,7 @@ export default defineConfig({
 
 ## Data Handling with Astro DB
 
-Inovus.AI utilizes Astro DB with Turso for the feedback component. Astro DB is a database integration for Astro that allows you to easily connect to various databases, including Turso. Turso is a serverless database platform that provides a scalable and globally distributed database.
+Inovus.ai utilizes Astro DB with Turso for the feedback component. Astro DB is a database integration for Astro that allows you to easily connect to various databases, including Turso. Turso is a serverless database platform that provides a scalable and globally distributed database.
 
 ### Create a Turso Database
 
@@ -562,9 +562,9 @@ tables: { Feedback },
 > [!TIP]
 >Key locations:
 >
-> * [/db/*](https://github.com/mearashadowfax/Inovus.AI/tree/c611b145c821aaac2df787df8848ebf5002a8ddd/db): Database schema
-> * [@common/PostFeedback.svelte](https://github.com/mearashadowfax/Inovus.AI/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/components/common/PostFeedback.svelte): Feedback component
-> * [src/pages/api/feedback.ts](https://github.com/mearashadowfax/Inovus.AI/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/pages/api/feedback.ts): API
+> * [/db/*](https://github.com/mearashadowfax/Inovus.ai/tree/c611b145c821aaac2df787df8848ebf5002a8ddd/db): Database schema
+> * [@common/PostFeedback.svelte](https://github.com/mearashadowfax/Inovus.ai/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/components/common/PostFeedback.svelte): Feedback component
+> * [src/pages/api/feedback.ts](https://github.com/mearashadowfax/Inovus.ai/blob/c611b145c821aaac2df787df8848ebf5002a8ddd/src/pages/api/feedback.ts): API
 >
 > Recommended resources:
 >
@@ -573,21 +573,21 @@ tables: { Feedback },
 
 ## Integrations and Enhancements
 
-Inovus.AI uses several Astro integrations and enhancements to improve its functionality, performance, and developer experience.
+Inovus.ai uses several Astro integrations and enhancements to improve its functionality, performance, and developer experience.
 
 ### Astro SEO
 
 The [astro-seo](https://github.com/jonasmerlin/astro-seo) integration helps manage SEO metadata and schema.org data, improving the website's visibility on search engines.
 
-In [BaseLayout.astro](https://github.com/mearashadowfax/Inovus.AI/blob/771087f60258ced93f7ad8ab38669c5ada1a65c6/src/layout/BaseLayout.astro#L43), the `SEO` component from `astro-seo` is used to define global SEO settings like `title`, `description`, `openGraph`, and `twitter` metadata. Page-specific SEO settings can be overridden by passing `seo` props to the `BaseLayout` component, as shown in the example below:
+In [BaseLayout.astro](https://github.com/mearashadowfax/Inovus.ai/blob/771087f60258ced93f7ad8ab38669c5ada1a65c6/src/layout/BaseLayout.astro#L43), the `SEO` component from `astro-seo` is used to define global SEO settings like `title`, `description`, `openGraph`, and `twitter` metadata. Page-specific SEO settings can be overridden by passing `seo` props to the `BaseLayout` component, as shown in the example below:
 
 ```astro
 ---
 //...
 
 const seo = {
-  title: "About Inovus.AI",
-  description: "Learn more about Inovus.AI...",
+  title: "About Inovus.ai",
+  description: "Learn more about Inovus.ai...",
 };
 ---
 
@@ -600,7 +600,7 @@ const seo = {
 
 The [astro-seo-schema](https://github.com/codiume/orbit/tree/main/packages/astro-seo-schema) integration provides a convenient way to add schema.org structured data to your pages, helping search engines understand the content better.
 
-In [BaseLayout.astro](https://github.com/mearashadowfax/Inovus.AI/blob/771087f60258ced93f7ad8ab38669c5ada1a65c6/src/layout/BaseLayout.astro#L79), the Schema component from `astro-seo-schema` is used to define default schema.org data for the website. Page-specific schema.org data can be added by passing `schema` props to the `BaseLayout` component, as shown in the example below.
+In [BaseLayout.astro](https://github.com/mearashadowfax/Inovus.ai/blob/771087f60258ced93f7ad8ab38669c5ada1a65c6/src/layout/BaseLayout.astro#L79), the Schema component from `astro-seo-schema` is used to define default schema.org data for the website. Page-specific schema.org data can be added by passing `schema` props to the `BaseLayout` component, as shown in the example below.
 
 ```astro
 ---
@@ -621,17 +621,17 @@ const schema: WithContext<Thing> = {
 
 The [astro-font](https://github.com/rishi-raj-jain/astro-font) integration optimizes font loading and preloading, improving website performance.
 
-In [BaseLayout.astro](https://github.com/mearashadowfax/Inovus.AI/blob/771087f60258ced93f7ad8ab38669c5ada1a65c6/src/layout/BaseLayout.astro#L85), the `AstroFont` component is used to define font configurations, including `name`, `src`, `preload`, `display`, `selector`, and `fallback` options. This ensures fonts are loaded efficiently and applied to the correct elements.
+In [BaseLayout.astro](https://github.com/mearashadowfax/Inovus.ai/blob/771087f60258ced93f7ad8ab38669c5ada1a65c6/src/layout/BaseLayout.astro#L85), the `AstroFont` component is used to define font configurations, including `name`, `src`, `preload`, `display`, `selector`, and `fallback` options. This ensures fonts are loaded efficiently and applied to the correct elements.
 
 ### Client-Side Router
 
 The [ClientRouter](https://docs.astro.build/en/guides/view-transitions/) component from `astro:transitions` enables client-side routing with page transitions, providing a smoother and more interactive user experience.
 
-In [BaseLayout.astro](https://github.com/mearashadowfax/Inovus.AI/blob/771087f60258ced93f7ad8ab38669c5ada1a65c6/src/layout/BaseLayout.astro#L82), the `ClientRouter` component is included to activate client-side routing. This allows for page transitions and improves navigation performance.
+In [BaseLayout.astro](https://github.com/mearashadowfax/Inovus.ai/blob/771087f60258ced93f7ad8ab38669c5ada1a65c6/src/layout/BaseLayout.astro#L82), the `ClientRouter` component is included to activate client-side routing. This allows for page transitions and improves navigation performance.
 
 ### Sitemap Generation
 
-While Inovus.AI doesn't include the official [@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/) integration by default, you can easily add it if needed. However, please note that the official integration cannot generate sitemap entries for dynamic routes in SSR mode.
+While Inovus.ai doesn't include the official [@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/) integration by default, you can easily add it if needed. However, please note that the official integration cannot generate sitemap entries for dynamic routes in SSR mode.
 
 If you require more advanced sitemap generation capabilities, such as including dynamic routes or customizing sitemap entries, you can use the community-maintained [Sitemap Extensions](https://inox-tools.fryuni.dev/sitemap-ext) package.
 
@@ -645,6 +645,6 @@ If you're interested in helping, you can contribute in several ways:
 
 ## License
 
-This project is released under the MIT License. Please read the [LICENSE](https://github.com/mearashadowfax/Inovus.AI/blob/main/LICENSE) file for more details.
+This project is released under the MIT License. Please read the [LICENSE](https://github.com/mearashadowfax/Inovus.ai/blob/main/LICENSE) file for more details.
 
 **Note:** This website template has no affiliation with the companies displayed. Logos are used for demonstration purposes only and should be replaced in customized versions.

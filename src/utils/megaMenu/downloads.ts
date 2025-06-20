@@ -4,9 +4,9 @@ export const downloadsMenu = [
     items: [
       {
         icon: "download",
-        title: "Inovus.AI Core",
+        title: "Inovus.ai Core",
         description:
-          "Download the free trial version of the Inovus.AI Core.",
+          "Download the free trial version of the Inovus.ai Core.",
         href: "/downloads/inovusai-core",
       },
     ],
@@ -30,7 +30,7 @@ export const downloadsMenu = [
         icon: "arrowPath",
         title: "Subscription Licensing",
         description:
-          "Register the Inovus.AI Core with a subscription license for seamless updates.",
+          "Register the Inovus.ai Core with a subscription license for seamless updates.",
         href: "/downloads/subscription-licensing",
       },
     ],

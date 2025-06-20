@@ -1,7 +1,7 @@
 export const platformMenu = [
   {
     href: "/platform",
-    title: "Inovus.AI Core",
+    title: "Inovus.ai Core",
     description: "AI-powered risk analysis and data modeling engine.",
     image: "inovusai",
   },
