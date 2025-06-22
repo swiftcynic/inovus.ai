@@ -90,12 +90,12 @@ const largeInfoSection = {
   systemRequirements: {
     title: "System Requirements",
     content:
-      "Requires Windows 10/11 with Excel 2016, 2019, 2021, or Office 365 (32-bit, 64-bit, or Arm) or macOS 11 (Big Sur) or later.",
+      "Requires Windows 10/11 with POS Data 2016, 2019, 2021, or Office 365 (32-bit, 64-bit, or Arm) or macOS 11 (Big Sur) or later.",
   },
-  excel2003: {
-    title: "Excel 2003",
+  POSData2003: {
+    title: "POS Data 2003",
     content:
-      "Excel 2003 isn’t supported. Use version 3 links below for compatibility.",
+      "POS Data 2003 isn’t supported. Use version 3 links below for compatibility.",
     versions: [
       {
         version: "3.x - Essential Edition",
@@ -154,26 +154,26 @@ const largeInfoSection = {
       <a
         href={essentialTier.cta.link}
         aria-describedby={essentialTier.title}
-        class="mt-8 block rounded-lg px-3.5 py-2.5 text-center text-sm font-semibold ring-1 ring-inset ring-teal-700 transition duration-300 hover:bg-teal-700/80 hover:text-white focus:bg-teal-700 focus:text-white focus:outline-hidden sm:mt-10"
+        class="mt-8 block rounded-lg px-3.5 py-2.5 text-center text-sm font-semibold ring-1 ring-inset ring-orange-700 transition duration-300 hover:bg-orange-700/80 hover:text-white focus:bg-orange-700 focus:text-white focus:outline-hidden sm:mt-10"
         >{essentialTier.cta.text}</a
       >
     </div>
 
     <div
-      class="relative flex flex-col justify-evenly rounded-3xl bg-teal-700 p-8 shadow-2xl ring-1 ring-teal-900/10 sm:p-10 lg:h-[120%]"
+      class="relative flex flex-col justify-evenly rounded-3xl bg-orange-700 p-8 shadow-2xl ring-1 ring-orange-900/10 sm:p-10 lg:h-[120%]"
     >
-      <h3 class="text-4xl/7 font-semibold text-teal-100">
+      <h3 class="text-4xl/7 font-semibold text-orange-100">
         {advancedTier.title}
       </h3>
 
-      <p class="mt-8 text-lg/6 text-teal-50 sm:mt-10">
+      <p class="mt-8 text-lg/6 text-orange-50 sm:mt-10">
         {advancedTier.description}
       </p>
 
       <a
         href={advancedTier.cta.link}
         aria-describedby={advancedTier.title}
-        class="mt-8 block rounded-lg bg-teal-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs transition-colors duration-300 hover:bg-teal-600/80 focus:bg-teal-600/80 focus:outline-hidden sm:mt-10"
+        class="mt-8 block rounded-lg bg-orange-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs transition-colors duration-300 hover:bg-orange-600/80 focus:bg-orange-600/80 focus:outline-hidden sm:mt-10"
         >{advancedTier.cta.text}</a
       >
     </div>
@@ -213,7 +213,7 @@ const largeInfoSection = {
     class="mx-auto max-w-[85rem] px-4 pb-10 sm:px-6 md:py-14 lg:px-8 lg:py-20"
   >
     <div
-      class="grid rounded-3xl bg-teal-300 px-5 py-5 shadow-xl md:grid-cols-2 md:grid-rows-2"
+      class="grid rounded-3xl bg-orange-300 px-5 py-5 shadow-xl md:grid-cols-2 md:grid-rows-2"
     >
       <div class="py-5 sm:p-5 md:row-span-2 md:content-center">
         <h3
@@ -260,16 +260,16 @@ const largeInfoSection = {
         <h3
           class="text-balance text-2xl font-bold tracking-tight text-slate-800"
         >
-          {largeInfoSection.excel2003.title}
+          {largeInfoSection.POSData2003.title}
         </h3>
 
         <p class="mt-6 text-pretty text-lg/8 text-slate-700">
-          {largeInfoSection.excel2003.content}
+          {largeInfoSection.POSData2003.content}
         </p>
 
         <ul class="mt-6 list-inside list-none px-5 text-slate-700">
           {
-            largeInfoSection.excel2003.versions.map((version) => (
+            largeInfoSection.POSData2003.versions.map((version) => (
               <li>
                 <a
                   href={version.href}

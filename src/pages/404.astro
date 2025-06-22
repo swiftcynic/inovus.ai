@@ -58,7 +58,7 @@ const schema: WithContext<Thing> = {
     url: `${Astro.site}`,
     name: "Inovus.ai",
     description:
-      "Inovus.ai Analytics Inc. provides advanced analytics for Excel to help businesses unlock actionable insights quickly with no coding required.",
+      "Inovus.ai Analytics Inc. provides advanced analytics for POS Data to help businesses unlock actionable insights quickly with no coding required.",
   },
 };
 ---
@@ -68,7 +68,7 @@ const schema: WithContext<Thing> = {
     class="grid min-h-full place-items-center px-6 pb-10 pt-32 sm:pt-48 lg:px-8"
   >
     <div class="text-center">
-      <p class="text-xl font-semibold text-teal-600">
+      <p class="text-xl font-semibold text-orange-600">
         {pageContent.errorCode}
       </p>
       <h1
@@ -93,9 +93,9 @@ const schema: WithContext<Thing> = {
                   href={resource.link}
                   class="group flex gap-x-5 px-2 py-8 transition hover:bg-slate-100"
                 >
-                  <Icon name={resource.icon} class="size-6 text-teal-600" />
+                  <Icon name={resource.icon} class="size-6 text-orange-600" />
                   <div class="grow">
-                    <h3 class="font-semibold text-slate-600 transition group-hover:text-teal-700">
+                    <h3 class="font-semibold text-slate-600 transition group-hover:text-orange-700">
                       {resource.title}
                     </h3>
                     <p class="mt-1 text-slate-500">{resource.description}</p>

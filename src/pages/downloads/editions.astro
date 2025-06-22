@@ -95,7 +95,7 @@ const comparisonData = [
 const infoSection = {
   title: "System Requirements",
   description:
-    "Requires Windows 10/11 with Excel 2016, 2019, 2021, or Office 365 (32-bit, 64-bit, or Arm) or macOS 11 (Big Sur) or later.",
+    "Requires Windows 10/11 with POS Data 2016, 2019, 2021, or Office 365 (32-bit, 64-bit, or Arm) or macOS 11 (Big Sur) or later.",
   trialInfo:
     "A 30-day free trial is available for each edition, with no commitment required.",
   buttons: [
@@ -103,19 +103,19 @@ const infoSection = {
       text: "Download the Essential Edition",
       link: "#",
       style:
-        "bg-teal-50 hover:bg-teal-50/70 text-slate-800 focus:bg-teal-50/70",
+        "bg-orange-50 hover:bg-orange-50/70 text-slate-800 focus:bg-orange-50/70",
     },
     {
       text: "Download the Advanced Edition",
       link: "#",
-      style: "bg-teal-600 text-white hover:bg-teal-600/80 focus:bg-teal-600/80",
+      style: "bg-orange-600 text-white hover:bg-orange-600/80 focus:bg-orange-600/80",
     },
   ],
 };
 ---
 
 <BaseLayout>
-  <section class="bg-linear-to-tl/oklch from-teal-200 via-transparent to-white">
+  <section class="bg-linear-to-tl/oklch from-orange-200 via-transparent to-white">
     <div class="mx-auto max-w-[85rem] px-4 pb-12 pt-40 sm:px-6 lg:px-8">
       <div class="max-w-7xl">
         <div class="mx-auto max-w-2xl lg:mx-0">
@@ -137,7 +137,7 @@ const infoSection = {
     </div>
   </section>
 
-  <section class="bg-linear-to-bl/oklch from-teal-200 via-transparent to-white">
+  <section class="bg-linear-to-bl/oklch from-orange-200 via-transparent to-white">
     <div
       class="relative mx-auto max-w-[60rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14"
     >
@@ -188,7 +188,7 @@ const infoSection = {
                   </span>
                   <span class="place-self-center md:mx-auto">
                     {item.essential ? (
-                      <Icon name="check" class="size-5 shrink-0 text-teal-700" />
+                      <Icon name="check" class="size-5 shrink-0 text-orange-700" />
                     ) : (
                       <Icon name="minus" class="size-5 shrink-0 text-slate-400" />
                     )}
@@ -203,7 +203,7 @@ const infoSection = {
                   </span>
                   <span class="place-self-center md:mx-auto">
                     {item.advanced ? (
-                      <Icon name="check" class="size-5 shrink-0 text-teal-700" />
+                      <Icon name="check" class="size-5 shrink-0 text-orange-700" />
                     ) : (
                       <Icon name="minus" class="size-5 shrink-0 text-slate-400" />
                     )}
@@ -220,7 +220,7 @@ const infoSection = {
     class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 md:py-14 lg:px-8 lg:py-20"
   >
     <div
-      class="grid divide-y divide-dashed divide-slate-400 rounded-3xl bg-teal-300 px-5 py-5 shadow-xl lg:grid-cols-2 lg:divide-x lg:divide-y-0"
+      class="grid divide-y divide-dashed divide-slate-400 rounded-3xl bg-orange-300 px-5 py-5 shadow-xl lg:grid-cols-2 lg:divide-x lg:divide-y-0"
     >
       <div class="content-center py-5 sm:p-5">
         <h3

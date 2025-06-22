@@ -70,7 +70,7 @@ const infoSections = [
   {
     title: "System Requirements",
     content: [
-      "Inovus.ai Core is compatible with Windows 10/11 and macOS 11 (Big Sur) or later. Works seamlessly with Excel 2013, 2016, 2019, 2021, and Microsoft 365 on both 32-bit and 64-bit platforms.",
+      "Inovus.ai Core is compatible with Windows 10/11 and macOS 11 (Big Sur) or later. Works seamlessly with POS Data 2013, 2016, 2019, 2021, and Microsoft 365 on both 32-bit and 64-bit platforms.",
       "The Subscription Edition also requires an active internet connection.",
     ],
     className: "md:row-span-2 md:content-center py-5 sm:p-5",
@@ -157,30 +157,30 @@ const infoSections = [
       <a
         href={essentialTier.cta.link}
         aria-describedby={essentialTier.title}
-        class="mt-8 block rounded-lg px-3.5 py-2.5 text-center text-sm font-semibold ring-1 ring-inset ring-teal-700 transition duration-300 hover:bg-teal-700/80 hover:text-white focus:bg-teal-700 focus:text-white focus:outline-hidden sm:mt-10"
+        class="mt-8 block rounded-lg px-3.5 py-2.5 text-center text-sm font-semibold ring-1 ring-inset ring-orange-700 transition duration-300 hover:bg-orange-700/80 hover:text-white focus:bg-orange-700 focus:text-white focus:outline-hidden sm:mt-10"
       >
         {essentialTier.cta.text}</a
       >
     </div>
 
     <div
-      class="relative flex flex-col justify-evenly rounded-3xl bg-teal-700 p-8 shadow-2xl ring-1 ring-teal-900/10 sm:p-10 lg:h-[120%]"
+      class="relative flex flex-col justify-evenly rounded-3xl bg-orange-700 p-8 shadow-2xl ring-1 ring-orange-900/10 sm:p-10 lg:h-[120%]"
     >
-      <h3 class="text-base/7 font-semibold text-teal-100">
+      <h3 class="text-base/7 font-semibold text-orange-100">
         {advancedTier.title}
       </h3>
       <p class="mt-4 flex items-baseline gap-x-2">
         <span class="text-5xl font-semibold tracking-tight text-white"
           >{advancedTier.price}</span
         >
-        <span class="text-base text-teal-200"
+        <span class="text-base text-orange-200"
           >{advancedTier.priceDescription}</span
         >
       </p>
       {
         advancedTier.description.map((desc, index) => (
           <p
-            class={`${index === 0 ? "mt-6 text-base font-medium text-teal-50 lg:mt-0" : "mt-8 text-base/6 text-teal-50 sm:mt-10"}`}
+            class={`${index === 0 ? "mt-6 text-base font-medium text-orange-50 lg:mt-0" : "mt-8 text-base/6 text-orange-50 sm:mt-10"}`}
           >
             {desc}
           </p>
@@ -190,7 +190,7 @@ const infoSections = [
       <a
         href={advancedTier.cta.link}
         aria-describedby={advancedTier.title}
-        class="mt-8 block rounded-lg bg-teal-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs transition-colors duration-300 hover:bg-teal-600/80 focus:bg-teal-600/80 focus:outline-hidden sm:mt-10"
+        class="mt-8 block rounded-lg bg-orange-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs transition-colors duration-300 hover:bg-orange-600/80 focus:bg-orange-600/80 focus:outline-hidden sm:mt-10"
         >{advancedTier.cta.text}</a
       >
     </div>
@@ -201,7 +201,7 @@ const infoSections = [
       <dl class="grid grid-cols-1 gap-x-3 gap-y-16 text-center lg:grid-cols-3">
         {
           features.map(({ title, description, className }) => (
-            <div class={`flex flex-col gap-y-4 bg-teal-100 p-10 ${className}`}>
+            <div class={`flex flex-col gap-y-4 bg-orange-100 p-10 ${className}`}>
               <dt class="text-base/7 text-slate-600">{description}</dt>
               <dd class="order-first text-3xl font-medium tracking-tight text-slate-900">
                 <h3>{title}</h3>
@@ -217,7 +217,7 @@ const infoSections = [
     class="mx-auto max-w-[85rem] px-4 pb-10 sm:px-6 md:pb-14 lg:px-8 lg:pb-20"
   >
     <div
-      class="relative grid overflow-hidden rounded-3xl bg-teal-300 px-5 py-5 shadow-xl md:grid-cols-2 md:grid-rows-2"
+      class="relative grid overflow-hidden rounded-3xl bg-orange-300 px-5 py-5 shadow-xl md:grid-cols-2 md:grid-rows-2"
     >
       {
         infoSections.map(({ title, content, className, icon, iconClass }) => (

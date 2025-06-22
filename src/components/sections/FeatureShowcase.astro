@@ -5,16 +5,16 @@ import image_2 from "@images/graph.webp";
 import image_3 from "@images/dashboard.webp";
 
 // Content for the section title and subtitle
-const title = `<span class="text-teal-700">Inovus</span><span class="font-normal text-slate-400">.ai</span>'s Powerful Analytics Suite`;
-const subTitle = `Discover how Inovus.ai transforms your Excel workspace into a comprehensive analytics powerhouse, making data analysis accessible and actionable.`;
+const title = `<span class="text-orange-700">Inovus</span><span class="font-normal text-slate-800">.ai</span>'s Powerful Analytics Suite`;
+const subTitle = `Discover how Inovus.ai transforms your POS Data workspace into a comprehensive analytics powerhouse, making data analysis accessible and actionable.`;
 
 // Features list for displaying the key highlights
 
 const features = [
   {
-    title: "Native Excel integration", // Feature title
+    title: "Native POS Data integration", // Feature title
     description:
-      "Work directly in Excel with our native toolbar and custom functions", // Feature description
+      "Work directly in POS Data with our native toolbar and custom functions", // Feature description
     image: image_1, // Associated image
     class:
       "content-center border-b border-dashed border-slate-400 py-5 sm:col-span-2 sm:p-5", // Custom CSS classes for layout and styling
@@ -41,7 +41,7 @@ const features = [
     title: "And more...",
     class: "content-center border-t border-dashed border-slate-400 py-5 sm:p-5",
     moreFeatures: [
-      "Works seamlessly with all modern Excel versions (2013+) on both Windows and Mac",
+      "Works seamlessly with all modern POS Data versions (2013+) on both Windows and Mac",
       "Build interactive dashboards that update in real-time as your data changes",
       "Access your insights anywhere through cloud integration with Google Sheets and OneDrive",
       "Create custom reports that tell your data's story exactly how you want",
@@ -84,7 +84,7 @@ const features = [
           )}
 
           {feature.moreFeatures && (
-            <ul class="ml-4 mt-4 w-4/5 list-inside list-disc space-y-2 text-base/6 text-slate-600 marker:text-teal-600">
+            <ul class="ml-4 mt-4 w-4/5 list-inside list-disc space-y-2 text-base/6 text-slate-600 marker:text-orange-600">
               {feature.moreFeatures.map((item) => (
                 <li>{item}</li>
               ))}
